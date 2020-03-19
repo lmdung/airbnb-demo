@@ -1,0 +1,23 @@
+.g-destinations-c {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-column-gap: 1em;
+  }
+  .d-c {
+    cursor: pointer;
+  }
+  .d-c-cover{
+    width: 100%;
+    height: 20rem;
+    background-image: url('https://a0.muscache.com/4ea/air/v2/pictures/a728b050-9512-48a7-ab9c-858e9b291cc0.jpg?t=r:w654-h400-sfit,e:fjpg-c90');
+    background-size: cover;
+    border-radius: 1rem;
+  }
+  .d-c .d-c-title {
+    font-weight: 600;
+    padding: 0.7rem 0;
+    color: #914669;
+  }
+  .d-c .d-c-infor {
+    width: 80%
+  }
