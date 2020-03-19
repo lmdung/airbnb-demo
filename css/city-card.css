@@ -1,0 +1,13 @@
+.group-city-card {
+    display: grid;
+    grid-template-columns: 1fr  1fr  1fr  1fr  1fr;
+    justify-content: start;
+    grid-row-gap: 2rem;
+  }
+  .c-c .c-c-name {
+    font-weight: bold;
+    font-size: 1.2rem
+  }
+  .c-c .c-c-price {
+    color: #000000af;
+  }
