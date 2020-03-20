@@ -3,6 +3,7 @@
     grid-template-columns: 1fr  1fr  1fr  1fr  1fr;
     justify-content: start;
     grid-row-gap: 2rem;
+    padding-top: 1rem;
   }
   .c-c .c-c-name {
     font-weight: bold;

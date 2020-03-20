@@ -1,0 +1,26 @@
+.circle-box {
+    display: flex;
+  }
+  .circle-box .disable {
+    margin-right: 25rem;
+    color: #00000012;
+  }
+  .circle {
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid;
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  .circle-box .action {
+    color: #00000024;
+    box-shadow: 0 0 3px 1px;
+    transition: box-shadow 0.5s;
+    cursor: pointer;
+  }
+  .circle-box .action:hover {
+    box-shadow: 0 0 12px 6px;
+  }
+  .circle-box .action > i {color: black}
