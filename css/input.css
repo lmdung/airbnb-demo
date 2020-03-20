@@ -1,0 +1,64 @@
+.form-input {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    
+  }
+  .form-sign {
+    padding: 1.5rem;
+  }
+  .form-sign .f-s-title {
+    font-weight: bold;
+    font-size: 2rem;
+    width: 20rem;
+    color: #000000de;
+  }
+  .form-sign .input {
+    padding: 1rem 0 0 0;
+  }
+  .form-sign .input > div {
+    padding-bottom: 0.5rem;
+    font-size: 0.8rem;
+  }
+  .form-sign .input > input {
+    height: 2.5rem;
+    border-radius: 5px;
+    border: 0.5px solid #0000001c;
+  }
+  .form-sign .f-s-where > input {
+    width: 24rem;
+  }
+  ::placeholder {
+    text-indent: 10px;
+  }
+  .form-sign .f-s-check {
+    display: flex;
+  }
+  .form-sign .f-s-check > div input {
+    width: 11.3rem;
+  }
+  .form-sign .f-s-check .check-in > input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+  }
+  .form-sign .f-s-check .check-out > input {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .form-sign .f-s-check .input > input[type=date] {
+    padding-left: 10px;
+    color: #0000009c;
+  }
+  .form-sign button {
+    float: right;
+    margin: 1rem 0;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    background-color: #ec1a1ac7;
+    font-weight: bold;
+    color: white;
+  }
+  .form-sign .f-s-guests > input {
+    width: 24rem;
+  }
