@@ -1,0 +1,155 @@
+  .header-cover {
+    width: 100%;
+    height: 60rem;
+    background-image: url('../img/cover.jpg');
+    background-size: cover;
+    background-position: 0 -10rem;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 5% 5% auto;
+    grid-template-rows: 15% auto auto auto;
+  }
+  .header-cover .h-logo {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: start;
+    justify-self: center;
+    color: white;
+    padding-top: 1rem;
+  }
+  /* nav */
+  .header-cover .nav {
+     grid-column: 3/4;
+     justify-self: end;
+     padding-top: 1rem;
+  }
+  .menu {
+    display: flex;
+    list-style: none;
+  }
+  .menu > li > a {
+     padding: 2rem 0.5rem;
+     margin: 0.5rem 0.5rem;
+     color: white;
+  }
+  .menu > li > a:hover {
+    cursor: pointer;
+    border-bottom: 1px solid white;
+  }
+  
+  /* form-inout */
+  .form-input {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: white;
+    justify-self: start;
+  }
+  .form-sign {
+    padding: 1.5rem;
+  }
+  .form-sign .f-s-title {
+    font-weight: bold;
+    font-size: 2rem;
+    width: 20rem;
+    color: #000000de;
+  }
+  .form-sign .input {
+    padding: 1rem 0 0 0;
+  }
+  .form-sign .input > div {
+    padding-bottom: 0.5rem;
+    font-size: 0.8rem;
+  }
+  .form-sign .input > input {
+    height: 2.5rem;
+    border-radius: 5px;
+    border: 0.5px solid #0000001c;
+  }
+  .form-sign .f-s-where > input {
+    width: 24rem;
+  }
+  ::placeholder {
+    text-indent: 10px;
+  }
+  .form-sign .f-s-check {
+    display: flex;
+  }
+  .form-sign .f-s-check > div input {
+    width: 11.3rem;
+  }
+  .form-sign .f-s-check .check-in > input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+  }
+  .form-sign .f-s-check .check-out > input {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .form-sign .f-s-check .input > input[type=date] {
+    padding-left: 10px;
+    color: #0000009c;
+  }
+  .form-sign button {
+    float: right;
+    margin: 1rem 0;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    background-color: #ec1a1ac7;
+    font-weight: bold;
+    color: white;
+  }
+  .form-sign .f-s-guests > input {
+    width: 24rem;
+  }
+  /* <!-- form input --> */
+  .form-infor {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    justify-self: start;
+    margin-top: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    position: relative;
+    height: 50%;
+  }
+  .form-infor .f-i-color {
+    height: 8px;
+    width: 100%;
+    background-color: #f1b53b;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+  }
+  .form-infor .f-i-content {
+    width: 24rem;
+    font-size: 0.8rem;
+    color: #0000009c;
+    padding-bottom: 0.5rem;
+  }
+  .form-infor .f-i-title {
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  .form-infor .f-i-link > a {
+    color: black;
+  } 
+  .h-footer {
+    grid-column: 1/4;
+    grid-row: 4/5;
+    justify-self: end;
+    padding-right: 1rem;
+    padding-top: 5rem;
+  }
+  .h-footer > a {
+    color: white;
+    text-decoration: none;
+  }
+  .h-footer > a:hover {
+    text-decoration: underline;
+  } 

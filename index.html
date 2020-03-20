@@ -3,13 +3,146 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Airbnb Website Demo</title>
         <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" type="text/css" href="./style.css" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="/css/header.css"/>
+        <link rel="stylesheet" type="text/css" href="/css/explore-airbnb.css"/>
+        <link rel="stylesheet" type="text/css" href="/css/places-to-stay.css"/>
+        <link rel="stylesheet" type="text/css" href="/css/adventure-card.css"/>
         <script src="https://kit.fontawesome.com/21ca2cbefe.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <h1>hello</h1>
+        <div class="container">
+            <div class="header">
+                <div class="header-cover">
+                    <div class="h-logo"><i class="fab fa-pied-piper-alt fa-2x"></i></div>
+                  <!--nav -->
+                    <div class="nav">
+                        <ul class="menu">
+                            <li><a><i class="fas fa-globe"></i> English(US)</a></li>
+                            <li><a>$ USD</a></li>
+                            <li><a>Host a home</a></li>
+                            <li><a>Host an experience</a></li>
+                            <li><a>Help</a></li>
+                            <li><a>Sign up</a></li>
+                            <li><a>Log in</a></li>
+                        </ul>
+                    </div>
+                  <!-- form input -->
+                    <div class="form-input">
+                        <div class="form-sign">
+                            <div class="f-s-title">
+                                Book unique places to stay and things to do.
+                            </div>
+                            <div class="f-s-where input">
+                                <div>WHERE</div>
+                                <input type="text" placeholder="AnyWhere">
+                            </div>
+                            <div class="f-s-check">
+                                <div class="check-in input">
+                                    <div>CHECK-IN</div>
+                                    <input type="date">
+                                </div>
+                                <div class="check-out input">
+                                    <div>CHECK-OUT</div>
+                                    <input type="date">
+                                </div>
+                            </div>
+                            <div class="f-s-guests input">
+                                <div>GUESTS</div>
+                                <input type="text" placeholder="Guests">
+                            </div>
+                            <button>Search</button>
+                        </div>
+                    </div>
+                      <!-- form-infor -->
+                    <div class="form-infor">
+                        <div class="f-i-color"></div>
+                        <div class="f-i-title">Our response to the COVID-19 pandemic</div>
+                        <div class="f-i-content">
+                            We are now offering Guests full refunds and Hosts no charge cancellations for reservations booked on or before March 14th with a check in date of April 14th or earlier. Please note this policy will not cover any new bookings.
+                        </div>
+                        <div class="f-i-link"><a href="#">Learn more</a></div>
+                    </div>
+                    <div class="h-footer">
+                        <a href="#">Over 300 unique places<br>to stay in Oregen</a>
+                    </div>
+                </div>
+            </div>
+            <!--Explore Airbnb-->
+            <div class="explore-container">
+                <div class="explore-title">Explore Airbnb</div>
+                <div class="explore-group">
+                    <div class="explore">
+                        <div class="explore-cover"></div>
+                        <div class="explore-text">Stay</div>
+                    </div>
+                    <div class="explore">
+                        <div class="explore-cover explore-2"></div>
+                        <div class="explore-text">Experiences</div>
+                    </div>
+                    <div class="explore">
+                        <div class="explore-cover explore-3"></div>
+                        <div class="explore-text">Adventures</div>
+                    </div>
+                </div>
+            </div>
+            <!--Airbnb Plus places to stay-->
+            <div class="place-to-stay">
+                <div class="body-title">Airbnb Plus places to stay</div>
+                <div class="body-title-blur">A selection of places to stay verified for quality and design.</div>
+                <div class="places-cover">
+                    <div class="content-place">
+                    <div class="text-place">Dung</div>
+                    <div class="button-place"><div>Explore stays <i class="fa fa-angle-right"></i></div></div>
+                    </div>
+                </div>
+            </div>
+            <!--Introducing Airbnb Adventures-->
+            <div class="g-ad-c-new">
+                <div class="body-title">Introducing Airbnb Adventures</div>
+                <div class="body-title-blur">Multi-day trips led by local experts—activities, meals, and stays included.</div>
+                <div class="g-ad-c">
+                    <div class="ad-c">
+                      <div class="ad-c-cover"></div>
+                      <div class="ad-c-title">Canada</div>
+                      <div class="ad-c-infor">Bioluminescent Overnight Yachtstay</div>
+                      <div class="ad-c-price">From $191/person for 2day</div>
+                    </div>
+                    <div class="ad-c">
+                      <div class="ad-c-cover earth2"></div>
+                      <div class="ad-c-title">Russian Federation</div>
+                      <div class="ad-c-infor">Bioluminescent Overnight Yachtstay</div>
+                      <div class="ad-c-price">From $191/person for 2day</div>
+                    </div>
+                    <div class="ad-c">
+                      <div class="ad-c-cover earth3"></div>
+                      <div class="ad-c-title">Tanzania, United Republic of</div>
+                      <div class="ad-c-infor">Bioluminescent Overnight Yachtstay</div>
+                      <div class="ad-c-price">From $191/person for 2day</div>
+                    </div>
+                    <div class="ad-c">
+                      <div class="ad-c-cover earth4"></div>
+                      <div class="ad-c-title">Madagascar</div>
+                      <div class="ad-c-infor">Bioluminescent Overnight Yachtstay</div>
+                      <div class="ad-c-price">From $191/person for 2day</div>
+                    </div>
+                    <div class="ad-c">
+                      <div class="ad-c-cover earth5"></div>
+                      <div class="ad-c-title">India</div>
+                      <div class="ad-c-infor">Bioluminescent Overnight Yachtstay</div>
+                      <div class="ad-c-price">From $191/person for 2day</div>
+                    </div>
+                    <div class="ad-c">
+                      <div class="ad-c-cover earth6"></div>
+                      <div class="ad-c-title">Brazil</div>
+                      <div class="ad-c-infor">Bioluminescent Overnight Yachtstay</div>
+                      <div class="ad-c-price">From $191/person for 2day</div>
+                    </div>
+                </div>
+                <div class="plus"><a href="#">Show all adventures</a> <i class="fa fa-angle-right fa-lg"></i></div>
+            </div>
+        </div>
     </body>
 </html>

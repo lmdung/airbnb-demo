@@ -1,8 +1,51 @@
-* {
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-}
+
 body {
     font-family: 'Roboto', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: grid;
+    grid-template-columns: 10% auto 10%;
+    grid-template-rows: repeat(9, auto);
+}
+.container .header {
+    grid-column: 1/4;
+    align-self: stretch;
+}
+.container .explore-container {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+.container .place-to-stay {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    padding-bottom: 5rem;
+}
+.container .g-ad-c-new {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+.body-title {
+    font-weight: 600;
+    font-size: 1.2em;
+    padding-bottom: 0.5em;
+}
+.body-title-blur {
+    color: rgba(0, 0, 0, 0.486);
+    padding-bottom: 1.5rem;
+}
+.plus {
+    padding-top: 2rem;
+}
+.plus > a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.8rem;;
+}
+.plus > a:hover {
+    text-decoration: underline;
 }

@@ -1,9 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-    font-family: Aral, sans-serif;
-  }
 .explore-title {
     font-weight: 600;
     font-size: 1.2em;
@@ -28,7 +22,7 @@
 .explore .explore-cover {
     width: 7em;
     height: 5em;
-    background-image: url('https://a0.muscache.com/im/pictures/8b7519ec-2c82-4c09-8233-fd4d2715bbf9.jpg?aki_policy=large');
+    background-image: url('../img/explore1.webp');
     background-size: cover;
     border-top-left-radius: 0.7em;
     border-bottom-left-radius: 0.7em;
@@ -37,3 +31,9 @@
     font-weight: bold;
     padding-left: 1.5em;
   }
+.explore .explore-2 {
+  background-image: url('../img/explore2.webp');
+}
+.explore .explore-3 {
+  background-image: url('../img/explore3.webp');
+}

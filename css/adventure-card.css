@@ -1,0 +1,37 @@
+.g-ad-c {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 1em;
+  }
+.ad-c {
+    cursor: pointer;
+  }
+.ad-c-cover{
+    width: 100%;
+    height: 20rem;
+    background-image: url('../img/canada.webp');
+    background-size: cover;
+    border-radius: 10px;
+  }
+.ad-c .ad-c-title {
+    font-weight: 600;
+    padding: 7px 0;
+  }
+.ad-c .ad-c-infor {
+    padding-bottom: 7px;
+  }
+.g-ad-c .earth2 {
+    background-image: url('../img/russian.webp');
+  }
+.g-ad-c .earth3 {
+    background-image: url('../img/tazania.webp');
+}
+.g-ad-c .earth4 {
+  background-image: url('../img/madagascar.webp');
+}
+.g-ad-c .earth5 {
+  background-image: url('../img/india.webp');
+}
+.g-ad-c .earth6 {
+  background-image: url('../img/brazil.webp');
+}
